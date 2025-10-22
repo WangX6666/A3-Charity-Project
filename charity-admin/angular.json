@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "charity-client": {
+    "charity-admin": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -56,10 +56,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "charity-client:build:production"
+              "buildTarget": "charity-admin:build:production"
             },
             "development": {
-              "buildTarget": "charity-client:build:development"
+              "buildTarget": "charity-admin:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -90,6 +90,6 @@
     }
   },
   "cli": {
-    "analytics": "f07fb58d-4a73-45a0-9f18-b5691efba8a6"
+    "analytics": "6bf37175-6e91-49a4-9948-0c53faf56407"
   }
 }
